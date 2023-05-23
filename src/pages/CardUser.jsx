@@ -89,7 +89,7 @@ export const CardUser = () => {
                 </Stack>
             </Box>
 
-            <Button variant="outlined" > Exportar excel <SaveIcon /></Button>
+            <Button onClick={() =>{console.log(userName)}} variant="outlined" > Exportar excel <SaveIcon /></Button>
           </div>
         </Box>
         

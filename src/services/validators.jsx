@@ -1,13 +1,29 @@
-import Alert from '@mui/material/Alert';
+// Validate length users
 
-const validateUsername = (username) =>{
-    if(username === 'doublevpartners'){
-        return(<Alert severity='warning'>No se encuentra disponible</Alert>)
+export const validateLength = (userName) =>{
+    if(userName.length < 4){
+        return true;
     }
-    else if (username !== 'doublevpartners'){
-        return(<Alert security='info'>Usuario encontrado</Alert>)
-    }
-
 }
 
-export default validateUsername;
+// Validate the doublevpartners user
+
+export const validateUsername = (userName) =>{
+        if(userName === 'doublevpartners'){
+            return true;
+        }
+        else{
+            return false;
+        }
+}
+
+// Validate undefined data
+
+export const validateData = (infouser) =>{
+    if(infouser === undefined){
+        return true;
+    }
+    else{
+        return false;
+    }
+}

@@ -14,13 +14,14 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import AppBar from './AppBar';
 import Drawer from './Drawer';
 import DrawerHeader from './DrawerHeader';
 import { useNavigate } from 'react-router-dom';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import SearchIcon from '@mui/icons-material/Search';
+import HomeIcon from '@mui/icons-material/Home';
 
 // Main component
 
@@ -89,7 +90,7 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                  <InboxIcon />
+                  <HomeIcon />
                 </ListItemIcon>
                 <ListItemText primary="Home" sx={{ opacity: open ? 1 : 0 }} />
               </ListItemButton>
@@ -135,9 +136,9 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                  <InboxIcon />
+                  <SearchIcon />
                 </ListItemIcon>
-                <ListItemText primary="Settings" sx={{ opacity: open ? 1 : 0 }}  />
+                <ListItemText primary="Search user" sx={{ opacity: open ? 1 : 0 }}  />
               </ListItemButton>
             </ListItem>
 
