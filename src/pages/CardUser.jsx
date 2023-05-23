@@ -18,7 +18,13 @@ export const CardUser = () => {
       setUserName(user.data);
     };
     fetchData();
-  }, []);
+  }, [userId.id]);
+
+  const exportUserGit = async () =>{
+    // console.log(userName);
+    const exportData = await axios.post('http://localhost:3001/usergit/crear', userName);
+    // console.log(exportData.data); 
+  }
 
   return (
     <Box sx={{display:"flex", p:5}}>
@@ -89,7 +95,7 @@ export const CardUser = () => {
                 </Stack>
             </Box>
 
-            <Button onClick={() =>{console.log(userName)}} variant="outlined" > Exportar excel <SaveIcon /></Button>
+            <Button onClick={() =>{exportUserGit()}} variant="outlined" > Exportar excel <SaveIcon /></Button>
           </div>
         </Box>
         

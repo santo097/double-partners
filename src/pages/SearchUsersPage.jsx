@@ -38,7 +38,6 @@ async  function handleSubmit(event) {
         }
         else{
             const infouser = await uploadUsers(userName);
-            console.log(infouser);
             if(infouser.total_count <= 0){
               return Swal.fire({
                 title: 'Error!',
@@ -71,7 +70,7 @@ async  function handleSubmit(event) {
         <div style={{backgroundColor:'#FFF', padding:30, borderRadius:20,boxShadow:'0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12)'}}>
         <Stack spacing={2} direction={"row"}  sx={{marginBottom:5, alignContent:'inherit'}}>
           <Avatar src={'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'} />
-          <h1 style={{marginTop: -4}}>search git user</h1>
+          <h1 style={{marginTop: -4}}>search users</h1>
         </Stack>
 
         {/* Form Component */}

@@ -17,8 +17,6 @@ export const SearchUser = () => {
 
 async function handleSubmit(event) {
     event.preventDefault();
-    
-
     if(validateLength(userName)){
       return Swal.fire({
         title: 'Error!',
