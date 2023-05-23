@@ -19,4 +19,4 @@ para usar la exportacion de datos debe instalarse el proyecto backend-double-par
 
 enlace: https://github.com/santo097/double-partners-back
 
-ESTE PROYECTO SE USAO MUI Y SWEETALERT2 
+ESTE PROYECTO SE USO MUI Y SWEETALERT2 
