@@ -1,7 +1,7 @@
 # Proyecto Frontend testing api github
 INSTALACION
 
-1. clonar el proyecto usando git clone https://github.com/santo097/double-partners.git
+1. clonar el proyecto usando git clone https://github.com/santo097/testing-api-github.git
 
 2. instalar dependencias usando npm install
 
