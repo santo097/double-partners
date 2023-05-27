@@ -57,7 +57,7 @@ export default function Sidenav() {
           </IconButton>
 
           <Typography variant="h6" noWrap component="div">
-            Double V Partners
+            TESTING API GITHUB
           </Typography>
 
         </Toolbar>
