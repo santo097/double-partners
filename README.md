@@ -1,5 +1,4 @@
-# Proyecto Frontend double-v-partners
-
+# Proyecto Frontend testing api github
 INSTALACION
 
 1. clonar el proyecto usando git clone https://github.com/santo097/double-partners.git
